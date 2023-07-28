@@ -7,7 +7,7 @@ const nextConfig = {
 		appDir: true,
 	},
 	// Use "output: 'export'" instead of "next export"
-	output: 'export',
+	// output: 'export',
 };
 
 module.exports = withFonts(nextConfig);

@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import nave_picture from '../../public/Nave_picture.png';
 // import SwiperSlide from '../app/';
@@ -16,7 +17,7 @@ function HomePage() {
 						<div className="text-5xl font-bold text-red-800 text-center container  ">
 							אֶתְגָרִילִי
 							<br />
-							של אאגכגכגכפעילות אתגרית לילדים
+							פעילות אתגרית לילדים
 							<p className="text-2xl font-rumi">בנים ובנות</p>
 							<br />
 							<div className="flex space-x-4 justify-center">
@@ -43,6 +44,10 @@ function HomePage() {
 									style={{ boxShadow: '0 2px 6px rgba(0, 0, 0, 4)' }}
 									width={800}
 									height={800}
+									className="transition-opacity opacity-0 duration-[2s]"
+									onLoadingComplete={(image) =>
+										image.classList.remove('opacity-0')
+									}
 								/>
 							</div>
 							<div className="w-full md:w-2/3 text-right text-white mr-5">
