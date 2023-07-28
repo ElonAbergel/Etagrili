@@ -49,7 +49,7 @@ const Slideshow = () => {
 								<Image
 									fill={true}
 									style={{ objectFit: 'cover' }}
-									src={image.src}
+									src={image}
 									alt={`Slide ${index + 1}`}
 								/>
 							</div>
