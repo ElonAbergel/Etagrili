@@ -7,8 +7,6 @@ const nextConfig = {
 		appDir: true,
 	},
 	// trailingSlash: true,
-
-	// output: 'export',
 };
 
 module.exports = withFonts(nextConfig);
