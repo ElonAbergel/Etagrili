@@ -16,7 +16,7 @@ function HomePage() {
 						<div className="text-5xl font-bold text-red-800 text-center container  ">
 							אֶתְגָרִילִי
 							<br />
-							פעילות אתגרית לילדים
+							של אאגכגכגכפעילות אתגרית לילדים
 							<p className="text-2xl font-rumi">בנים ובנות</p>
 							<br />
 							<div className="flex space-x-4 justify-center">
