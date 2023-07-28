@@ -42,12 +42,12 @@ function HomePage() {
 									src={nave_picture}
 									alt="תמונה של נוה"
 									style={{ boxShadow: '0 2px 6px rgba(0, 0, 0, 4)' }}
-									width={800}
-									height={800}
-									className="transition-opacity opacity-0 duration-[2s]"
-									onLoadingComplete={(image) =>
-										image.classList.remove('opacity-0')
-									}
+									// width={800}
+									// height={800}
+									// className="transition-opacity opacity-0 duration-[2s]"
+									// onLoadingComplete={(image) =>
+									// 	image.classList.remove('opacity-0')
+									// }
 								/>
 							</div>
 							<div className="w-full md:w-2/3 text-right text-white mr-5">
