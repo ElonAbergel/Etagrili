@@ -9,7 +9,7 @@ import {
 } from 'react-icons/fa';
 import emailjs from 'emailjs-com';
 // import SwiperSlide from '../app/';
-import logo from '../assets/test.logo.png';
+import logo from '../../public/test.logo.png';
 import Image from 'next/image';
 function Form() {
 	const [eventType, setEventType] = useState('');

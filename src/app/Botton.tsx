@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/test.logo.png';
+import logo from '../../public/test.logo.png';
 import Image from 'next/image';
 import a from 'next/link';
 function Botton() {

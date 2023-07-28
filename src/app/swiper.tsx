@@ -4,11 +4,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import SwiperCore from 'swiper';
 import 'swiper/css/bundle';
-import image1 from '../assets/BirthDay_Page/IMG_0202.jpg';
-import image2 from '../assets/BirthDay_Page/IMG_0227.jpg';
-import image3 from '../assets/BirthDay_Page/IMG_0259.jpg';
-import image4 from '../assets/BirthDay_Page/IMG_0267.jpg';
-import image5 from '../assets/BirthDay_Page/check_poto_elon.png';
+import image1 from '../../public/BirthDay_Page/IMG_0202.jpg';
+import image2 from '../../public//BirthDay_Page/IMG_0227.jpg';
+import image3 from '../../public/BirthDay_Page/IMG_0259.jpg';
+import image4 from '../../public/BirthDay_Page/IMG_0267.jpg';
+import image5 from '../../public/BirthDay_Page/check_poto_elon.png';
 import Image from 'next/image';
 const images = [image1, image2, image3, image4, image5];
 

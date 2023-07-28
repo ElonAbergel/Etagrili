@@ -1,7 +1,7 @@
 import React from 'react';
-import nave_name from '../../assets/nave-name.png';
-import Nave_run from '../../assets/Who_AM_I/nave run.jpeg';
-import Nave_strach from '../../assets/Who_AM_I/nave_strach.jpeg';
+import nave_name from '../../../public/nave-name.png';
+import Nave_run from '../../../public/Who_AM_I/nave run.jpeg';
+import Nave_strach from '../../../public/Who_AM_I/nave_strach.jpeg';
 import Image from 'next/image';
 function WhoAmI() {
 	return (

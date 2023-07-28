@@ -2,10 +2,9 @@
 import React, { useState } from 'react';
 import { FaPhone, FaWhatsapp } from 'react-icons/fa';
 import { FiMenu } from 'react-icons/fi';
-import backgroun_phone from '../assets/background_phone.jpg';
-import logo from '../assets/test.logo.png';
+import backgroun_phone from '../../public/background_phone.jpg';
+import logo from '../../public/test.logo.png';
 import Image from 'next/image';
-import a from 'next/link';
 
 function Header() {
 	const phoneNumber = '052-4216936';

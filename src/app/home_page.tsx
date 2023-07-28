@@ -1,5 +1,5 @@
 import React from 'react';
-import nave_picture from '../assets/Nave_picture.png';
+import nave_picture from '../../public/Nave_picture.png';
 // import SwiperSlide from '../app/';
 import Form from './form';
 
