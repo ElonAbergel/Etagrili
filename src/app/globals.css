@@ -38,3 +38,10 @@
 		}
 	}
 }
+
+@media (max-width: 640px) {
+	.logo-image {
+		width: 80%; /* Set a smaller width for smaller screens */
+		margin-left: 4rem; /* Adjust the margin for smaller screens */
+	}
+}

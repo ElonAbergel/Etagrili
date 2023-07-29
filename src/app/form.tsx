@@ -103,7 +103,12 @@ function Form() {
 										onChange={(e) => setEventType(e.target.value)}
 										required // Add the "required" attribute
 									>
-										<option value="">סוג אירוע</option>
+										<option
+											className="text-right"
+											value=""
+										>
+											סוג אירוע
+										</option>
 										<option value="יום הולדת">יום הולדת</option>
 										<option value="אחר">אחר</option>
 									</select>
@@ -147,7 +152,12 @@ function Form() {
 										onChange={(e) => setSelectedMonth(e.target.value)}
 										required // Add the "required" attribute
 									>
-										<option value="">בחר חודש</option>
+										<option
+											className="text-right"
+											value=""
+										>
+											בחר חודש
+										</option>
 										<option value="ינואר">ינואר</option>
 										<option value="פברואר">פברואר</option>
 										<option value="מרץ">מרץ</option>

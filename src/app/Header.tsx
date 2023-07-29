@@ -61,7 +61,7 @@ function Header() {
 						</div>
 					</div>
 					<div
-						className=" w-96 h-64 flex inset-0 cursor-pointer mx-auto mt-1/2"
+						className=" w-96 h-64 flex inset-0 cursor-pointer mx-auto mt-1/2 container"
 						onClick={handlelogoClick}
 					>
 						<img
@@ -74,6 +74,7 @@ function Header() {
 								width: '100%', // Set the width to 100% to ensure it scales down on smaller screens
 								height: 'auto', // Let the height adjust automatically to maintain aspect ratio
 							}}
+							className="logo-image"
 						/>
 					</div>
 					<div
