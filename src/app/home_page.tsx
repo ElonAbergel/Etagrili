@@ -6,6 +6,7 @@ import Form from './form';
 
 import Slideshow from './swiper';
 import Image from 'next/image';
+
 function HomePage() {
 	return (
 		<div className="">
@@ -39,7 +40,7 @@ function HomePage() {
 						<div className="flex md:mr-5 md:mt-32">
 							<div className="w-full md:w-3/5 mr-2 md:ml-40 md:mt-10">
 								<Image
-									src={nave_picture}
+									src="/../public/Nave_picture.png"
 									alt="תמונה של נוה"
 									style={{ boxShadow: '0 2px 6px rgba(0, 0, 0, 4)' }}
 									width={800}

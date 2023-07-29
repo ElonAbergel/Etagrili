@@ -1,13 +1,16 @@
 /** @type {import('next').NextConfig} */
+const withImages = require('next-images');
 const withFonts = require('next-fonts');
 
 const nextConfig = {
-	// Remove the "output" property from the "experimental" configuration
 	experimental: {
 		appDir: true,
 	},
-	// Use "output: 'export'" instead of "next export"
-	output: 'export',
+	// Add the images configuration for image formats
+	// This will support PNG, JPG, JPEG, GIF, and SVG formats
+	images: {
+		domains: [], // Add any domains if you are using external image URLs
+	},
 };
 
 module.exports = withFonts(nextConfig);

@@ -62,7 +62,7 @@ function Header() {
 						onClick={handlelogoClick}
 					>
 						<Image
-							src={logo.src}
+							src={logo}
 							alt="Logo"
 							fill={true}
 							sizes="(max-width: 640px) 100vw, 640px" // Example sizes value, adjust it according to your needs
