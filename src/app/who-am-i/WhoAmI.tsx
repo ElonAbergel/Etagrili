@@ -1,7 +1,11 @@
 import React from 'react';
-import nave_name from '../../../public/nave-name.png';
-import Nave_run from '../../../public/Who_AM_I/nave run.jpeg';
-import Nave_strach from '../../../public/Who_AM_I/nave_strach.jpeg';
+// import nave_name from '../../../public/nave-name.png';
+// import Nave_run from '../../../public/Who_AM_I/nave run.jpeg';
+// import Nave_strach from '../../../public/Who_AM_I/nave_strach.jpeg';
+
+const nave_name = '/../public/nave-name.png';
+const Nave_run = '/../public/Who_AM_I/nave run.jpeg';
+const Nave_strach = '/../public/Who_AM_I/nave_strach.jpeg';
 import Image from 'next/image';
 function WhoAmI() {
 	return (
@@ -10,7 +14,7 @@ function WhoAmI() {
 				<div className="container py-10 mx-auto">
 					<div className="relative w-72 h-64 mt-20 mx-auto  transform transition-transform duration-300 hover:scale-110 ">
 						<Image
-							src={nave_name.src}
+							src={nave_name}
 							fill={true}
 							alt="Logo"
 							style={{ objectFit: 'contain' }}
@@ -24,7 +28,7 @@ function WhoAmI() {
 						</h2>
 						<div className="text-2xl flex">
 							<Image
-								src={Nave_run.src}
+								src={Nave_run}
 								alt="Nave Run"
 								className="w-1/2 h-auto object-cover"
 								style={{ boxShadow: '0 4px 10px rgba(0, 0, 0, 4)' }}
@@ -50,7 +54,7 @@ function WhoAmI() {
 						</h2>
 						<div className="text-2xl flex justify-between">
 							<Image
-								src={Nave_strach.src}
+								src={Nave_strach}
 								alt="Nave Run"
 								className="w-1/2 h-auto object-cover"
 								style={{ boxShadow: '0 4px 10px rgba(0, 0, 0, 4)' }}
@@ -75,7 +79,7 @@ function WhoAmI() {
 						</h2>
 						<div className="text-2xl flex justify-between">
 							<Image
-								src={Nave_strach.src}
+								src={Nave_strach}
 								alt="Nave Run"
 								className="w-1/2 h-auto object-cover"
 								style={{ boxShadow: '0 4px 10px rgba(0, 0, 0, 4)' }}

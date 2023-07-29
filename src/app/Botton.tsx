@@ -1,14 +1,14 @@
 import React from 'react';
-import logo from '../../public/test.logo.png';
+// import logo from '../../public/test.logo.png';
+const logo = '/../public/test.logo.png';
 import Image from 'next/image';
-import a from 'next/link';
 function Botton() {
 	return (
 		<div className="  bg-yellow-200">
 			<div className="  container  bg-yellow-200 relative mx-auto  ">
 				<div className="relative h-48  mb-4 ">
 					<Image
-						src={logo.src}
+						src={logo}
 						alt="Logo"
 						fill={true}
 						style={{ objectFit: 'contain' }}

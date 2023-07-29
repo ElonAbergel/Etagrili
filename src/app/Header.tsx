@@ -2,8 +2,11 @@
 import React, { useState } from 'react';
 import { FaPhone, FaWhatsapp } from 'react-icons/fa';
 import { FiMenu } from 'react-icons/fi';
-import backgroun_phone from '../../public/background_phone.jpg';
-import logo from '../../public/test.logo.png';
+// import backgroun_phone from '../../public/background_phone.jpg';
+
+const backgroun_phone = '/../public/background_phone.jpg';
+const logo = '/../public/test.logo.png';
+// import logo from '../../public/test.logo.png';
 import Image from 'next/image';
 
 function Header() {
@@ -47,7 +50,7 @@ function Header() {
 							className="flex items-center text-white p-4 rounded-lg cursor-pointer transform transition duration-300 hover:ring-4 hover:ring-orange-500 hover:bg-orange-500"
 							onClick={handleCallClick}
 							style={{
-								backgroundImage: `url(${backgroun_phone.src})`,
+								backgroundImage: `url(${backgroun_phone})`,
 								backgroundSize: 'cover',
 							}}
 						>
@@ -96,7 +99,7 @@ function Header() {
 						>
 							<div className="h-48 mt-4 relative inset-0 cursor-pointer mx-auto mt-1/2">
 								<Image
-									src={logo.src}
+									src={logo}
 									alt="Logo"
 									fill={true}
 									style={{ objectFit: 'contain' }}

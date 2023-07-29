@@ -9,7 +9,9 @@ import {
 } from 'react-icons/fa';
 import emailjs from 'emailjs-com';
 // import SwiperSlide from '../app/';
-import logo from '../../public/test.logo.png';
+// import logo from '../../public/test.logo.png';
+
+const logo = '/../public/test.logo.png';
 import Image from 'next/image';
 function Form() {
 	const [eventType, setEventType] = useState('');
@@ -62,7 +64,7 @@ function Form() {
 			<div className="container mx-auto">
 				<div className="relative h-48  mb-4 py-6">
 					<Image
-						src={logo.src}
+						src={logo}
 						alt="Logo"
 						fill={true}
 						style={{ objectFit: 'contain' }}

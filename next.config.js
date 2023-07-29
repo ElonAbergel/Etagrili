@@ -9,4 +9,4 @@ const nextConfig = {
 	output: 'export',
 };
 
-module.exports = withFonts(nextConfig); // Add withImages to the chain
+module.exports = withFonts(withImages(nextConfig)); // Add withImages to the chain
