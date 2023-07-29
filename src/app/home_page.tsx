@@ -39,8 +39,8 @@ function HomePage() {
 					<div className="bg-blue-300 flex ">
 						<div className="flex md:mr-5 md:mt-32">
 							<div className="w-full md:w-3/5 mr-2 md:ml-40 md:mt-10">
-								<Image
-									src="/../public/Nave_picture.png"
+								<img
+									src={nave_picture.src}
 									alt="תמונה של נוה"
 									style={{ boxShadow: '0 2px 6px rgba(0, 0, 0, 4)' }}
 									width={800}

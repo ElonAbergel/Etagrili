@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const withFonts = require('next-fonts');
-const withImages = require('next-images'); // Import next-images plugin
+// const withImages = require('next-images'); // Import next-images plugin
 
 const nextConfig = {
 	experimental: {
@@ -14,4 +14,4 @@ const nextConfig = {
 	output: 'export',
 };
 
-module.exports = withFonts(withImages(nextConfig)); // Add withImages to the chain
+module.exports = withFonts(nextConfig); // Add withImages to the chain

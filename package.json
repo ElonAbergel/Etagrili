@@ -9,6 +9,7 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
+		"@expo/next-adapter": "^5.0.2",
 		"@react-pdf/renderer": "^3.1.12",
 		"@types/react": "18.2.12",
 		"@types/react-dom": "18.2.5",
@@ -20,8 +21,10 @@
 		"eslint": "8.42.0",
 		"eslint-config-next": "13.4.5",
 		"next": "13.4.5",
+		"next-compose-plugins": "^2.2.1",
 		"next-google-fonts": "^2.2.0",
 		"next-themes": "^0.2.1",
+		"next-transpile-modules": "^10.0.1",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
 		"react-icons": "^4.10.1",
