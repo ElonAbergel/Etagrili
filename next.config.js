@@ -11,6 +11,7 @@ const nextConfig = {
 	images: {
 		domains: [], // Add any domains if you are using external image URLs
 	},
+	output: 'export',
 };
 
 module.exports = withFonts(withImages(nextConfig)); // Add withImages to the chain
