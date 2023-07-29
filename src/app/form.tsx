@@ -9,9 +9,9 @@ import {
 } from 'react-icons/fa';
 import emailjs from 'emailjs-com';
 // import SwiperSlide from '../app/';
-// import logo from '../../public/test.logo.png';
+import logo from '../../public/test.logo.png';
 
-const logo = '/../public/test.logo.png';
+// const logo = '/../public/test.logo.png';
 import Image from 'next/image';
 function Form() {
 	const [eventType, setEventType] = useState('');
@@ -63,13 +63,16 @@ function Form() {
 		<div className=" flex bg-gradient-to-r from-purple-300 to-yellow-100 ">
 			<div className="container mx-auto">
 				<div className="relative h-48  mb-4 py-6">
-					<Image
-						src={logo}
+					<img
+						src={logo.src}
 						alt="Logo"
-						fill={true}
-						style={{ objectFit: 'contain' }}
-						priority={true}
-						sizes="(max-width: 640px) 100vw, 640px" // Example sizes value, adjust it according to your needs
+						style={{
+							objectFit: 'contain',
+							display: 'block', // To center the image, set it to block-level element
+							margin: '0 auto', // To center the image horizontally
+							maxWidth: '250px', // Adjust the max-width to make the image smaller
+						}}
+						sizes="(max-width: 640px) 100vw, 640px"
 					/>
 				</div>
 				{!formSubmitted ? (

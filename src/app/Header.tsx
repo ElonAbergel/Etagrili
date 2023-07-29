@@ -2,11 +2,11 @@
 import React, { useState } from 'react';
 import { FaPhone, FaWhatsapp } from 'react-icons/fa';
 import { FiMenu } from 'react-icons/fi';
-// import backgroun_phone from '../../public/background_phone.jpg';
+import backgroun_phone from '../../public/background_phone.jpg';
 
-const backgroun_phone = '/../public/background_phone.jpg';
-const logo = '/../public/test.logo.png';
-// import logo from '../../public/test.logo.png';
+// const backgroun_phone = '/../public/background_phone.jpg';
+// const logo = '/../public/test.logo.png';
+import logo from '../../public/test.logo.png';
 import Image from 'next/image';
 
 function Header() {
@@ -50,7 +50,7 @@ function Header() {
 							className="flex items-center text-white p-4 rounded-lg cursor-pointer transform transition duration-300 hover:ring-4 hover:ring-orange-500 hover:bg-orange-500"
 							onClick={handleCallClick}
 							style={{
-								backgroundImage: `url(${backgroun_phone})`,
+								backgroundImage: `url(${backgroun_phone.src})`,
 								backgroundSize: 'cover',
 							}}
 						>
@@ -64,13 +64,11 @@ function Header() {
 						className=" w-96 h-64 relative inset-0 cursor-pointer mx-auto mt-1/2"
 						onClick={handlelogoClick}
 					>
-						<Image
-							src={logo}
-							alt="Logo"
-							fill={true}
+						<img
+							src={logo.src}
+							alt="Logoaa"
 							sizes="(max-width: 640px) 100vw, 640px" // Example sizes value, adjust it according to your needs
 							style={{ objectFit: 'contain' }}
-							priority={true}
 						/>
 					</div>
 					<div
@@ -98,12 +96,10 @@ function Header() {
 							}}
 						>
 							<div className="h-48 mt-4 relative inset-0 cursor-pointer mx-auto mt-1/2">
-								<Image
-									src={logo}
+								<img
+									src={logo.src}
 									alt="Logo"
-									fill={true}
 									style={{ objectFit: 'contain' }}
-									priority={true}
 									sizes="(max-width: 640px) 100vw, 640px" // Example sizes value, adjust it according to your needs
 								/>
 							</div>

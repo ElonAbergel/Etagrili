@@ -14,6 +14,7 @@ function page() {
 			<div className="container relative mx-auto ">
 				<div className="text-center  font-assistant-bold text-white py-24">
 					{' '}
+					<br />
 					<div className="text-black text-4xl ">
 						?מוכנים לחווית נינג׳ה כוללת הכל
 					</div>

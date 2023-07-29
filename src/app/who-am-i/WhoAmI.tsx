@@ -1,11 +1,11 @@
 import React from 'react';
-// import nave_name from '../../../public/nave-name.png';
-// import Nave_run from '../../../public/Who_AM_I/nave run.jpeg';
-// import Nave_strach from '../../../public/Who_AM_I/nave_strach.jpeg';
+import nave_name from '../../../public/nave-name.png';
+import Nave_run from '../../../public/Who_AM_I/nave run.jpeg';
+import Nave_strach from '../../../public/Who_AM_I/nave_strach.jpeg';
 
-const nave_name = '/../public/nave-name.png';
-const Nave_run = '/../public/Who_AM_I/nave run.jpeg';
-const Nave_strach = '/../public/Who_AM_I/nave_strach.jpeg';
+// const nave_name = '/../public/nave-name.png';
+// const Nave_run = '/../public/Who_AM_I/nave run.jpeg';
+// const Nave_strach = '/../public/Who_AM_I/nave_strach.jpeg';
 import Image from 'next/image';
 function WhoAmI() {
 	return (
@@ -13,9 +13,8 @@ function WhoAmI() {
 			<div className=" relative ">
 				<div className="container py-10 mx-auto">
 					<div className="relative w-72 h-64 mt-20 mx-auto  transform transition-transform duration-300 hover:scale-110 ">
-						<Image
-							src={nave_name}
-							fill={true}
+						<img
+							src={nave_name.src}
 							alt="Logo"
 							style={{ objectFit: 'contain' }}
 							sizes="(max-width: 640px) 100vw, 640px" // Example sizes value, adjust it according to your needs
@@ -27,8 +26,8 @@ function WhoAmI() {
 							הסיפור שלי
 						</h2>
 						<div className="text-2xl flex">
-							<Image
-								src={Nave_run}
+							<img
+								src={Nave_run.src}
 								alt="Nave Run"
 								className="w-1/2 h-auto object-cover"
 								style={{ boxShadow: '0 4px 10px rgba(0, 0, 0, 4)' }}
@@ -53,8 +52,8 @@ function WhoAmI() {
 							השכלה
 						</h2>
 						<div className="text-2xl flex justify-between">
-							<Image
-								src={Nave_strach}
+							<img
+								src={Nave_strach.src}
 								alt="Nave Run"
 								className="w-1/2 h-auto object-cover"
 								style={{ boxShadow: '0 4px 10px rgba(0, 0, 0, 4)' }}
@@ -78,8 +77,8 @@ function WhoAmI() {
 							כיום
 						</h2>
 						<div className="text-2xl flex justify-between">
-							<Image
-								src={Nave_strach}
+							<img
+								src={Nave_strach.src}
 								alt="Nave Run"
 								className="w-1/2 h-auto object-cover"
 								style={{ boxShadow: '0 4px 10px rgba(0, 0, 0, 4)' }}
