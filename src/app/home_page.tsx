@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import nave_picture from '../../public//img/nave_picture.png';
+import nave_picture from '../../public/img/nave_picture.png';
 // import SwiperSlide from '../app/';
 import Form from './form';
 
