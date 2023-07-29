@@ -61,7 +61,7 @@ function Header() {
 						</div>
 					</div>
 					<div
-						className=" w-96 h-64 relative inset-0 cursor-pointer mx-auto mt-1/2"
+						className=" w-96 h-64 flex inset-0 cursor-pointer mx-auto mt-1/2"
 						onClick={handlelogoClick}
 					>
 						<img
@@ -104,8 +104,13 @@ function Header() {
 								<img
 									src={logo.src}
 									alt="Logo"
-									style={{ objectFit: 'contain' }}
-									sizes="(max-width: 540px) 100vw, 640px" // Example sizes value, adjust it according to your needs
+									sizes="(max-width: 640px) 100vw, 640px" // Example sizes value, adjust it according to your needs
+									style={{
+										objectFit: 'contain',
+										maxWidth: '100%', // Set the maximum width to 100%
+										width: '100%', // Set the width to 100% to ensure it scales down on smaller screens
+										height: 'auto', // Let the height adjust automatically to maintain aspect ratio
+									}}
 								/>
 							</div>
 							<div className="flex flex-col items-center py-6">

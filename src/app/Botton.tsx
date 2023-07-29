@@ -1,19 +1,21 @@
 import React from 'react';
-// import logo from '../../public/test.logo.png';
-const logo = '/../public/test.logo.png';
+import logo from '../../public/test.logo.png';
+// const logo = '/../public/test.logo.png';
 import Image from 'next/image';
 function Botton() {
 	return (
 		<div className="  bg-yellow-200">
 			<div className="  container  bg-yellow-200 relative mx-auto  ">
-				<div className="relative h-48  mb-4 ">
-					<Image
-						src={logo}
+				<div className="flex mb-4 mx-auto w-96 h-64 ">
+					<img
+						src={logo.src}
 						alt="Logo"
-						fill={true}
-						style={{ objectFit: 'contain' }}
-						priority={true}
-						sizes="(max-width: 640px) 100vw, 640px" // Example sizes value, adjust it according to your needs
+						style={{
+							objectFit: 'contain',
+							display: 'block', // To center the image, set it to block-level element
+							margin: '0 auto', // To center the image horizontally
+							maxWidth: '250px', // Adjust the max-width to make the image smaller
+						}}
 					/>
 				</div>
 				<div className="flex justify-center items-center text-2xl h-60">

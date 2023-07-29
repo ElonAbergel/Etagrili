@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import nave_picture from '../../public/img/nave_picture.png';
+import nave_picture from '../../public/Nave_picture.png';
 // import SwiperSlide from '../app/';
 import Form from './form';
 
@@ -39,8 +39,8 @@ function HomePage() {
 					<div className="bg-blue-300 flex ">
 						<div className="flex md:mr-5 md:mt-32">
 							<div className="w-full md:w-3/5 mr-2 md:ml-40 md:mt-10">
-								<Image
-									src={nave_picture}
+								<img
+									src={nave_picture.src}
 									alt="תמונה של נוה"
 									style={{ boxShadow: '0 2px 6px rgba(0, 0, 0, 4)' }}
 									width={800}

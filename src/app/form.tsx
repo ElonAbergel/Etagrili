@@ -62,7 +62,7 @@ function Form() {
 	return (
 		<div className=" flex bg-gradient-to-r from-purple-300 to-yellow-100 ">
 			<div className="container mx-auto">
-				<div className="relative h-48  mb-4 py-6">
+				<div className="flex mb-4 mx-auto w-96 h-64 ">
 					<img
 						src={logo.src}
 						alt="Logo"
