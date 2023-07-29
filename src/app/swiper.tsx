@@ -8,6 +8,7 @@ import image2 from '../../public/BirthDay_Page/IMG_0227.jpg';
 import image3 from '../../public/BirthDay_Page/IMG_0259.jpg';
 import image4 from '../../public/BirthDay_Page/IMG_0267.jpg';
 import image5 from '../../public/BirthDay_Page/check_poto_elon.png';
+import 'swiper/css/bundle';
 import Image from 'next/image';
 
 const images = [image1, image2, image3, image4, image5];

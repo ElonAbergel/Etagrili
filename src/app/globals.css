@@ -1,7 +1,6 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-@import 'swiper/css/bundle';
 
 @layer utilities {
 	/* Extra small devices (phones, 600px and down) */

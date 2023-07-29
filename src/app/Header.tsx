@@ -66,7 +66,7 @@ function Header() {
 					>
 						<img
 							src={logo.src}
-							alt="Logoaa"
+							alt="Logo"
 							sizes="(max-width: 640px) 100vw, 640px" // Example sizes value, adjust it according to your needs
 							style={{ objectFit: 'contain' }}
 						/>
