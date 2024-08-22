@@ -9,4 +9,4 @@ Ninja Birthday Parties: We offer action-packed, immersive ninja-themed birthday 
 
 Ninja Classes: Our expert-led ninja classes provide children with the opportunity to learn the art of ninja techniques. Through engaging exercises and games, we help kids enhance their agility, focus, discipline, and teamwork skills while having a blast.
 
-# To the Website: https://etgarili.com/ 
+# To the Website: https://etgarili.ninja/ 
